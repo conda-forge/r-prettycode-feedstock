@@ -1,4 +1,4 @@
-{% set version = '1.0.2' %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/prettycode_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/prettycode/prettycode_{{ version }}.tar.gz
-  sha256: 4f1274a4cc683a16823b0989aea2803053dec3cbd5caeb6bba64e67d312ee77b
+  sha256: 4f877bef2d4ff7771a3fa0368c9b85ef058b4c06ff9c18c31d827d3d0e4cd0c5
 
 build:
   merge_build_host: True  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
