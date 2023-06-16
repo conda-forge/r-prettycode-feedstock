@@ -1,11 +1,11 @@
-About r-prettycode
-==================
+About r-prettycode-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-prettycode-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/r-lib/prettycode#readme
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-prettycode-feedstock/blob/main/LICENSE.txt)
 
 Summary: Replace the standard print method for functions with one that performs syntax highlighting, using ANSI colors, if the terminal supports them.
 
